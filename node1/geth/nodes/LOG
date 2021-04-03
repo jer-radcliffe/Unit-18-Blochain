@@ -1,0 +1,36 @@
+=============== Apr 2, 2021 (CDT) ===============
+23:33:52.737053 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:33:52.758868 db@open opening
+23:33:52.761464 version@stat F·[] S·0B[] Sc·[]
+23:33:52.780008 db@janitor F·2 G·0
+23:33:52.780045 db@open done T·21.110955ms
+=============== Apr 2, 2021 (CDT) ===============
+23:35:57.374293 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:35:57.374482 version@stat F·[] S·0B[] Sc·[]
+23:35:57.374507 db@open opening
+23:35:57.374564 journal@recovery F·1
+23:35:57.376728 journal@recovery recovering @1
+23:35:57.384597 memdb@flush created L0@2 N·449 S·14KiB "loc..seq,v4":"version,v1"
+23:35:57.386503 version@stat F·[1] S·14KiB[14KiB] Sc·[0.25]
+23:35:57.408939 db@janitor F·3 G·0
+23:35:57.408977 db@open done T·34.471377ms
+23:55:07.298053 db@close closing
+23:55:07.298437 db@close done T·381.028µs
+=============== Apr 2, 2021 (CDT) ===============
+23:56:34.218305 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:56:34.219108 version@stat F·[1] S·14KiB[14KiB] Sc·[0.25]
+23:56:34.219183 db@open opening
+23:56:34.219268 journal@recovery F·1
+23:56:34.221061 journal@recovery recovering @3
+23:56:34.238714 memdb@flush created L0@5 N·7143 S·168KiB "loc..seq,v451":"n:\xff..ing,v5797"
+23:56:34.240694 version@stat F·[2] S·182KiB[182KiB] Sc·[0.50]
+23:56:34.260651 db@janitor F·4 G·0
+23:56:34.260679 db@open done T·41.485121ms
+23:56:34.265775 table@compaction L0·2 -> L1·0 S·182KiB Q·7594
+23:56:34.276129 table@build created L1@8 N·3120 S·115KiB "loc..seq,v451":"version,v1"
+23:56:34.276191 version@stat F·[0 1] S·115KiB[0B 115KiB] Sc·[0.00 0.00]
+23:56:34.283830 table@compaction committed F-1 S-66KiB Ke·0 D·4472 T·18.003832ms
+23:56:34.284335 table@remove removed @2
+=============== Apr 3, 2021 (CDT) ===============
+10:11:57.729271 db@close closing
+10:11:57.729923 db@close done T·646.971µs
