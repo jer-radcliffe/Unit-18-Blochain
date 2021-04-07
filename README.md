@@ -29,9 +29,11 @@ Explain the configuration of the network, such as it's blocktime, chain ID, acco
 
 Explain how to connect MyCrypto to your network and demonstrate (via screenshots and steps) and send a transaction.
 
-![alt text](Screen Shot 2021-04-03 at 12.14.57 AM.png)
-![alt text](Screen Shot 2021-04-03 at 12.17.11 AM.png)
-![alt text](Screen Shot 2021-04-03 at 12.30.44 AM.png)
-
+- ![](screenshots/untitled.gif)
+- ![](screenshots/image1.png)
+- ![](screenshots/image2.png)
+- ![](screenshots/image3.png)
+- ![](screenshots/image4.png)
+- ![](screenshots/image5.png)
 
 Upload the code, including the networkname.json and node folders.
